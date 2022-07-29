@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-user-interfaces",
+  "version": "1.0.0",
+  "description": "Creating dynamic user interfaces with HTML, CSS, and JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsalexi/Dynamic-User-Interfaces.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsalexi/Dynamic-User-Interfaces/issues"
+  },
+  "homepage": "https://github.com/itsalexi/Dynamic-User-Interfaces#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
