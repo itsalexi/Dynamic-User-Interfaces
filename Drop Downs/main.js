@@ -9,6 +9,8 @@ class DropDown {
 
   addEvent() {
     this.element.addEventListener('click', () => this.toggleDrop());
+    this.element.addEventListener('mouseenter', () => this.toggleDrop());
+    this.element.addEventListener('mouseleave', () => this.toggleDrop());
   }
 }
 
