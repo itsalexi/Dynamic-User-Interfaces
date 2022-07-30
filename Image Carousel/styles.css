@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #1e293b;
+  text-shadow: 0px 1px 3px black;
+}
+
+.carousel {
+  width: 800px;
+  border: 3px solid #0f172a;
+  padding: 1em;
+  align-self: center;
+  background-color: #334155;
+}
+
+.currentSlideText {
+  font-weight: bold;
+  color: white;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  display: none;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.player button {
+  border: none;
+  background: none;
+  color: white;
+}
+
+.show {
+  display: block;
+}
